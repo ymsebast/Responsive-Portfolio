@@ -147,9 +147,6 @@ footer{
 }
 
 @media screen and (max-width: 980px){
-    footer{
-        background-color: red;
-    }
     .name-logo{
         float: left;
         margin-left: 50px;
@@ -239,4 +236,88 @@ footer{
         width: 500px;
     }
     
+}
+@media screen and (max-width: 760px){
+    .name-logo{
+        float: left;
+        margin-left: 10px;
+        width: 200px;
+        height: 25px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: smaller;
+        padding: 20px;
+    }
+    .about,.portfolio,.contacts{
+        float: left;
+        color: #777777;
+        font-size: small;
+        padding: 2px 20px ;
+        margin-top: 30px;
+      }
+      .about{
+          margin-left: 150px;
+      }
+      .portfolio{
+          border-right: .5px solid #cccccc;
+          border-left: .5px solid #cccccc;
+          height: 600px;
+      }
+    .main-body{
+        margin: 20px 10px;
+
+        width: 600px;
+    }
+    .img-2{
+        position: absolute;
+        top: 415px;
+        left: 245px;
+        
+    }
+    .txt2{
+        left: 248.5px;
+    }
+    .txt4{
+        position: absolute;
+        left: 245px;
+        bottom: -90px;
+    }
+}
+@media screen and (max-width: 640px){
+    .name-logo{
+        width: 100%;
+        margin: 0px;
+        height: 20px;
+    }
+    header{
+        height: 100px;
+    }
+    .about,.portfolio,.contacts{
+        margin-top: 10px;
+    }
+    .img-2{
+        position: absolute;
+        top: 450px;
+        left: 248px;
+    }
+    .txt2{
+        left: 248.5px;
+    }
+    .txt3 {
+        margin: inherit;
+        position: absolute;
+        left: 58.5px;
+        bottom: -14px;
+    }
+    .txt4{
+        position: absolute;
+        left: 248px;
+        bottom: -125px;
+    }
+    .main-body{
+        background-color: #ffffff;
+        margin: 20px 10px;
+        width: 570px;
+        height: 550px;
+    }
 }
